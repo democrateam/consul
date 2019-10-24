@@ -43,6 +43,10 @@ every :sunday, at: "11pm" do
   command "truncate -s 0 /home/deploy/consul/shared/log/#{@environment}.log"
 end
 
+every 1.day, at: "3:40 am", roles: [:cron] do
+  rake "db:demo_seed"
+end
+
 every :reboot do
   # Number of workers must be kept in sync with capistrano's delayed_job_workers
   command "cd #{@path} && RAILS_ENV=#{@environment} bin/delayed_job -m -n 2 restart"
