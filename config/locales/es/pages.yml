@@ -68,7 +68,10 @@ es:
         how_to_use: Utilízalo en tu municipio
     privacy:
       title: Política de privacidad
-      subtitle: "Página de información de protección de datos"
+      subtitle: |-
+        Esta web tiene únicamente propósitos de demostración. El contenido es estático y no son datos reales.
+
+        No se guarda ningún dato privado en la base de datos. Todos los datos generados por usuarios, incluyendo las cuentas de usuario creadas, es borrado diariamente y el mismo contenido estático es restaurado.
     accessibility:
       title: Accesibilidad
       description: |-
