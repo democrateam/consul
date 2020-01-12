@@ -1,0 +1,20 @@
+#!/bin/sh
+
+case $1 in
+  start)
+    cd /home/deploy/consul/current
+    /home/deploy/.rvm/gems/ruby-2.3.8/wrappers/unicorn -c config/unicorn.rb -E <%= fetch(:rails_env) %> -D
+    echo "Unicorn Started"
+    exit 0
+    ;;
+  stop)
+    kill -QUIT `cat /home/deploy/consul/shared/pids/unicorn.pid`
+    echo "Unicorn Stopped"
+    exit 0
+    ;;
+  *)
+    echo >&2 "Usage: $0 <start|stop>"
+    exit 1
+    ;;
+esac
+exit 0

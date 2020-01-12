@@ -1,0 +1,4 @@
+check process <%= fetch(:application) %>_unicorn with pidfile <%= shared_path %>/pids/unicorn.pid
+  start program = "/etc/init.d/unicorn start"
+  stop program = "/etc/init.d/unicorn stop"
+  if 5 restarts within 5 cycles then timeout
