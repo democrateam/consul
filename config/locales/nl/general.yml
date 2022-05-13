@@ -823,8 +823,8 @@ nl:
       title: Hoe kan ik reageren op dit document?
   links:
     form:
-      delete_button: Delete
-      cancel_button: Cancel
+      delete_button: "Verwijder"
+      cancel_button: "Annuleren"
     nested_links:
       title: Links
       note: Voeg relevante links toe
