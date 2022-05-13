@@ -2,3 +2,27 @@
 //
 // You can also create SCSS files in the app/assets/stylesheets/custom/
 // folder and they will be loaded automatically.
+
+.draft-panels .draft-allegation {
+
+  .draft-text a {
+    color: $link;
+  }
+
+  .calc-comments .comment-box {
+    padding-bottom: $line-height * 2;
+
+    .comment .comment-meta .comment-more-info .comment-expand {
+      display: block;
+      margin-bottom: $line-height * 2;
+
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
+
+.budget-info .groups-and-headings .heading {
+  min-width: 0;
+}
