@@ -2,3 +2,11 @@
 //
 // You can also create SCSS files in the app/assets/stylesheets/custom/
 // folder and they will be loaded automatically.
+
+.tenants-info {
+  @include has-fa-icon(exclamation-triangle, solid);
+
+  &::before {
+    color: $warning-color;
+  }
+}

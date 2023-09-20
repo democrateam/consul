@@ -9,14 +9,14 @@ class MapLocation
   end
 
   def self.default_latitude
-    51.48
+    51.518193587508705
   end
 
   def self.default_longitude
-    0.0
+    -0.039480775607980696
   end
 
   def self.default_zoom
-    10
+    13
   end
 end

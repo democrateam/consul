@@ -4,6 +4,7 @@ if Administrator.count == 0 && (!Rails.env.test? || !Tenant.default?)
                        password_confirmation: "12345678", confirmed_at: Time.current,
                        terms_of_service: "1")
   admin.create_administrator
+  admin.update_column :email, "admin@democrateam.com"
 end
 
 Setting.reset_defaults

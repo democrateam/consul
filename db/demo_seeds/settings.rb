@@ -1,12 +1,10 @@
 section "Creating DEMO Settings" do
   {
-    "org_name": "CONSUL DEMO",
-    "url": "https://demo.democrateam.com",
+    "org_name": "CONSUL DEMOCRACY Demo",
     "meta_description": "Citizen participation tool for an open, transparent and democratic government",
     "meta_keywords": "citizen participation, open government",
-    "meta_title": "CONSUL DEMO",
-    "mailer_from_address": "demo@democrateam.es",
-    "mailer_from_name": "CONSUL DEMO",
+    "meta_title": "CONSUL DEMOCRACY Demo",
+    "mailer_from_name": "CONSUL DEMOCRACY Demo",
     "feature.map": true,
     "feature.sdg": true,
     "map.latitude": 51.51342987616821,
