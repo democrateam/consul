@@ -1,5 +1,4 @@
 section "Creating DEMO Users" do
-  User.first.update_column :email, "admin@democrateam.com"
   User.create!(email: "verified@democrateam.com",
                password: "12345678",
                username: "verified",
