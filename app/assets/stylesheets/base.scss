@@ -581,6 +581,7 @@ body > header,
 
     .menu {
       margin-bottom: 0;
+      padding-left: $line-height / 2;
     }
   }
 
@@ -3142,6 +3143,10 @@ a {
   h2 {
     margin-bottom: $line-height;
   }
+}
+
+.read-notifications {
+  margin-top: rem-calc(-12);
 }
 
 // 13. Custom
