@@ -53,42 +53,42 @@
 }
 
 .tenant-microvillage {
-    --brand: #000;
-    --brand-secondary: #0c9d46;
-    --main-header: #fff;
-    --main-header-contrast: #222;
-    --top-links: #000;
-    --top-links-contrast: #fff;
-    --anchor-color: #0c9d46;
-    --anchor-color-hover: #73b439;
+  --brand: #000;
+  --brand-secondary: #0c9d46;
+  --main-header: #fff;
+  --main-header-contrast: #222;
+  --top-links: #000;
+  --top-links-contrast: #fff;
+  --anchor-color: #0c9d46;
+  --anchor-color-hover: #73b439;
 
-    .subnavigation a {
-      color: $text;
+  .subnavigation a {
+    color: $text;
 
-      &.is-active {
-        color: #000;
+    &.is-active {
+      color: #000;
 
-        &::after {
-          background: #000;
-        }
+      &::after {
+        background: #000;
       }
     }
-
-    .locale .locale-form select {
-      background: #fff;
-      color: $text;
-    }
-
-    .footer {
-      background: #0c9d46;
-    }
-
-    .menu.simple li.is-active::after,
-    .no-bullet.submenu li a.is-active::after {
-      border-bottom: 4px solid #0c9d46;
-    }
-
-    .help-header a {
-      color: #0c9d46;
-    }
   }
+
+  .locale .locale-form select {
+    background: #fff;
+    color: $text;
+  }
+
+  .footer {
+    background: #0c9d46;
+  }
+
+  .menu.simple li.is-active::after,
+  .no-bullet.submenu li a.is-active::after {
+    border-bottom: 4px solid #0c9d46;
+  }
+
+  .help-header a {
+    color: #0c9d46;
+  }
+}
