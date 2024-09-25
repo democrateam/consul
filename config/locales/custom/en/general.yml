@@ -20,7 +20,7 @@ en:
         link: "Another optional call to action"
     feed:
       most_active:
-        proposals: "Featured proposals"
+        proposals: "Most active proposals"
         budgets: "Participatory budgets"
       see_budget: "See this budget"
   debates:
@@ -28,24 +28,24 @@ en:
       section_header:
         description: "Start a debate to share your views on topics you consider important."
       orders:
-        confidence_score: "Highest rated"
-        created_at: "Newest"
-        hot_score: "Most active"
-        most_commented: "Most commented"
-        relevance: "Relevance"
-        recommendations: "Recommendations"
+        confidence_score: "highest rated"
+        created_at: "newest"
+        hot_score: "most active"
+        most_commented: "most commented"
+        relevance: "relevance"
+        recommendations: "recommendations"
   proposals:
     index:
       section_header:
         description: "Support ideas and if they get enough support they will be voted."
       orders:
-        confidence_score: "Highest rated"
-        created_at: "Newest"
-        hot_score: "Most active"
-        most_commented: "Most commented"
-        relevance: "Relevance"
-        archival_date: "Archived"
-        recommendations: "Recommendations"
+        confidence_score: "highest rated"
+        created_at: "newest"
+        hot_score: "most active"
+        most_commented: "most commented"
+        relevance: "relevance"
+        archival_date: "archived"
+        recommendations: "recommendations"
     form:
       tags_label: "Tags"
   polls:
