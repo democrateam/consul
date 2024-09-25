@@ -2,4 +2,4 @@ en:
   activerecord:
     attributes:
       budget/investment:
-        location: "Information about the location"
+        location: "Location additional info"
